@@ -27,6 +27,6 @@ for _ in range(n):
     ax[1].plot(poi.time, cpoi.generatePath().T, linewidth='0.2', linestyle='dashed', marker='o', markersize='0.2')
 ax[0].set_title(r'Poisson Process', fontsize=10)
 ax[1].set_title('Compensated Poisson Process', fontsize=10)
-plt.savefig('C:\\Users\\oli-w\\OneDrive\\Uni\\Master Thesis\\LaTeX Template\\poissonPath.png', dpi=300)
+#plt.savefig('C:\\Users\\oli-w\\OneDrive\\Uni\\Master Thesis\\LaTeX Template\\poissonPath.png', dpi=300)
 # best result: name.pdf but made file too slow in this case
 
