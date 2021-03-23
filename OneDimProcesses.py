@@ -6,7 +6,6 @@ Created on Wed Dec 30 17:36:36 2020
 
 import numpy as np
 import scipy.stats as sp
-import matplotlib.pyplot as plt
 from MultiDimProcesses import MultiDimProcess, CorrelatedBrownianMotion
 
 class PoissonProcess(MultiDimProcess):
